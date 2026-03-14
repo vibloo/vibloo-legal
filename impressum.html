@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vibloo &mdash; Impressum</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0a0a;color:#ccc;line-height:1.7;padding:20px}
+.container{max-width:700px;margin:0 auto}
+h1{color:#fff;font-size:1.6em;margin-bottom:8px;text-align:center}
+h2{color:#B85450;font-size:1.1em;margin-top:30px;margin-bottom:10px}
+p{margin-bottom:12px;font-size:0.95em}
+a{color:#B85450;text-decoration:none}
+a:hover{text-decoration:underline}
+.back{display:inline-block;margin-bottom:20px;color:#666;font-size:0.85em}
+.lang-switch{text-align:center;margin-bottom:30px}
+.lang-switch button{background:#1a1a1a;color:#B85450;border:1px solid #222;padding:8px 20px;border-radius:10px;cursor:pointer;margin:0 4px;font-size:0.85em}
+.lang-switch button.active{background:#B85450;color:#fff;border-color:#B85450}
+</style>
+<script>
+function switchLang(lang){
+document.getElementById('de').style.display=lang==='de'?'block':'none';
+document.getElementById('en').style.display=lang==='en'?'block':'none';
+document.querySelectorAll('.lang-switch button').forEach(b=>b.classList.remove('active'));
+document.getElementById('btn-'+lang).classList.add('active');
+}
+</script>
+</head>
+<body>
+<div class="container">
+<a href="index.html" class="back">&larr; Zur&uuml;ck / Back</a>
+<h1>Impressum / Legal Notice</h1>
+<div class="lang-switch">
+<button id="btn-de" class="active" onclick="switchLang('de')">Deutsch</button>
+<button id="btn-en" onclick="switchLang('en')">English</button>
+</div>
+
+<div id="de">
+<h2>Angaben gem&auml;&szlig; &sect;5 TMG</h2>
+<p>
+Levent Beyd&uuml;z<br>
+Nordweg 6<br>
+49377 Vechta<br>
+Deutschland
+</p>
+
+<h2>Kontakt</h2>
+<p>E-Mail: <a href="mailto:vibloo.team@gmail.com">vibloo.team@gmail.com</a></p>
+
+<h2>Verantwortlich f&uuml;r den Inhalt gem&auml;&szlig; &sect;18 Abs. 2 MStV</h2>
+<p>
+Levent Beyd&uuml;z<br>
+Nordweg 6<br>
+49377 Vechta
+</p>
+
+<h2>EU-Streitbeilegung</h2>
+<p>Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr/</a></p>
+<p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+<h2>Haftung f&uuml;r Inhalte</h2>
+<p>Als Diensteanbieter sind wir gem&auml;&szlig; &sect;7 Abs. 1 TMG f&uuml;r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach &sect;&sect;8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde Informationen zu &uuml;berwachen oder nach Umst&auml;nden zu forschen, die auf eine rechtswidrige T&auml;tigkeit hinweisen.</p>
+
+<h2>Haftung f&uuml;r Links</h2>
+<p>Unser Angebot enth&auml;lt Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. F&uuml;r die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.</p>
+</div>
+
+<div id="en" style="display:none">
+<h2>Information according to &sect;5 TMG (German Telemedia Act)</h2>
+<p>
+Levent Beyd&uuml;z<br>
+Nordweg 6<br>
+49377 Vechta<br>
+Germany
+</p>
+
+<h2>Contact</h2>
+<p>Email: <a href="mailto:vibloo.team@gmail.com">vibloo.team@gmail.com</a></p>
+
+<h2>Responsible for content according to &sect;18 (2) MStV</h2>
+<p>
+Levent Beyd&uuml;z<br>
+Nordweg 6<br>
+49377 Vechta
+</p>
+
+<h2>EU Dispute Resolution</h2>
+<p>The European Commission provides a platform for online dispute resolution (ODR): <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr/</a></p>
+<p>We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+
+<h2>Liability for Content</h2>
+<p>As a service provider, we are responsible for our own content on these pages in accordance with &sect;7 (1) TMG. According to &sect;&sect;8 to 10 TMG, however, we are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.</p>
+
+<h2>Liability for Links</h2>
+<p>Our offer contains links to external third-party websites over whose content we have no influence. The respective provider or operator is always responsible for the content of the linked pages.</p>
+</div>
+
+</div>
+</body>
+</html>
