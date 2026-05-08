@@ -36,7 +36,7 @@ a:hover{text-decoration:underline}
 <div class="section-de active" id="sec-de">
 
 <h1>Datenschutzerkl&auml;rung</h1>
-<p class="updated">Zuletzt aktualisiert: 14. M&auml;rz 2026</p>
+<p class="updated">Zuletzt aktualisiert: 8. Mai 2026</p>
 
 <p>Diese Datenschutzerkl&auml;rung informiert dich dar&uuml;ber, welche personenbezogenen Daten wir bei der Nutzung der App &bdquo;Vibloo&ldquo; erheben, wie wir sie verwenden und welche Rechte du hast.</p>
 
@@ -119,10 +119,26 @@ Kontakt f&uuml;r Datenschutzanfragen: <a href="mailto:vibloo.team@gmail.com">vib
 <li>Kauftransaktionen werden &uuml;ber den App Store (Apple) bzw. Google Play abgewickelt und nicht direkt von uns gespeichert</li>
 </ul>
 
+<h3>2.9 Offline-N&auml;he-Funktion (Bluetooth &amp; lokales WLAN)</h3>
+<p>Vibloo bietet eine optionale Funktion zum direkten Kommunizieren mit anderen Vibloo-Nutzern in unmittelbarer N&auml;he (ca. 30&nbsp;m), ohne dass eine Internetverbindung erforderlich ist. Diese Funktion verwendet:</p>
+<ul>
+<li><strong>Bluetooth</strong> zur Erkennung anderer Ger&auml;te in der N&auml;he und zur Daten&uuml;bertragung</li>
+<li><strong>Lokales WLAN-Funkmodul</strong> zur direkten Ger&auml;te-zu-Ger&auml;te-Kommunikation (Apple Multipeer Connectivity / mDNS), unabh&auml;ngig davon ob du mit einem WLAN-Netzwerk verbunden bist</li>
+</ul>
+<p>Bei dieser Funktion werden folgende Daten <strong>direkt zwischen den Endger&auml;ten</strong> &uuml;bertragen, ohne dass Vibloo-Server oder Drittanbieter-Server involviert sind:</p>
+<ul>
+<li>Benutzername und URL des Profilbilds</li>
+<li>Benutzer-ID (Firebase-UID, ggf. gek&uuml;rzt auf 16 Zeichen)</li>
+<li>Versendete Fotos (ephemer, automatisch nach 7&nbsp;Sekunden gel&ouml;scht)</li>
+<li>Direkte Textnachrichten und Gruppen-Nachrichten</li>
+<li>Selbst erstellte Offline-Gruppen (Name, Mitglieder-Liste)</li>
+</ul>
+<p><strong>Wichtig:</strong> Offline gesendete Inhalte werden <strong>nicht auf unseren Servern gespeichert</strong>. Eine zentrale Moderation oder Inhaltspr&uuml;fung ist im Offline-Modus technisch <strong>nicht m&ouml;glich</strong>. Texte und Gruppen-Daten bleiben lokal auf den jeweiligen Endger&auml;ten gespeichert. Die direkte Verbindung ist durch das Multipeer-Connectivity-Framework von Apple TLS-verschl&uuml;sselt. Bluetooth- und lokale-Netzwerk-Berechtigungen k&ouml;nnen in den Ger&auml;te-Einstellungen jederzeit widerrufen werden. Diese Funktion ist optional &ndash; ohne entsprechende Berechtigungen bleibt die App vollst&auml;ndig nutzbar.</p>
+
 <h2>3. Rechtsgrundlagen (DSGVO Art. 6)</h2>
 <ul>
 <li><strong>Vertragserf&uuml;llung (Art. 6 Abs. 1 lit. b):</strong> Registrierung, Profil, Chat, Matching, Premium-Dienste</li>
-<li><strong>Einwilligung (Art. 6 Abs. 1 lit. a):</strong> Standort, Kamera, Mikrofon, Push-Benachrichtigungen, Fotobibliothek</li>
+<li><strong>Einwilligung (Art. 6 Abs. 1 lit. a):</strong> Standort, Kamera, Mikrofon, Push-Benachrichtigungen, Fotobibliothek, Bluetooth/lokales Netzwerk (Offline-N&auml;he)</li>
 <li><strong>Berechtigtes Interesse (Art. 6 Abs. 1 lit. f):</strong> Sicherheit, Missbrauchspr&auml;vention, Benachrichtigungs-Deduplizierung</li>
 </ul>
 
@@ -241,7 +257,7 @@ Kontakt f&uuml;r Datenschutzanfragen: <a href="mailto:vibloo.team@gmail.com">vib
 <div class="section-en" id="sec-en">
 
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: March 14, 2026</p>
+<p class="updated">Last updated: May 8, 2026</p>
 
 <p>This privacy policy explains what personal data we collect when you use the Vibloo app, how we use it, and what rights you have.</p>
 
@@ -324,10 +340,26 @@ Contact for privacy inquiries: <a href="mailto:vibloo.team@gmail.com">vibloo.tea
 <li>Purchase transactions are handled by the App Store (Apple) or Google Play and are not stored directly by us</li>
 </ul>
 
+<h3>2.9 Offline Nearby Feature (Bluetooth &amp; Local Network)</h3>
+<p>Vibloo offers an optional feature to communicate directly with other Vibloo users in immediate proximity (about 30&nbsp;m), without requiring an internet connection. This feature uses:</p>
+<ul>
+<li><strong>Bluetooth</strong> to discover nearby devices and transfer data</li>
+<li><strong>Local Wi-Fi radio</strong> for direct device-to-device communication (Apple Multipeer Connectivity / mDNS), regardless of whether you are connected to a Wi-Fi network</li>
+</ul>
+<p>When this feature is used, the following data is transferred <strong>directly between devices</strong>, without any Vibloo or third-party server involvement:</p>
+<ul>
+<li>Username and profile-image URL</li>
+<li>User ID (Firebase UID, possibly truncated to 16 characters)</li>
+<li>Sent photos (ephemeral, automatically deleted after 7&nbsp;seconds)</li>
+<li>Direct text messages and group messages</li>
+<li>User-created offline groups (name, member list)</li>
+</ul>
+<p><strong>Important:</strong> Content sent offline is <strong>not stored on our servers</strong>. Central moderation or content review is technically <strong>not possible</strong> in offline mode. Texts and group data remain stored locally on the respective devices. The direct connection is TLS-encrypted via Apple's Multipeer Connectivity framework. Bluetooth and local-network permissions can be revoked at any time in your device settings. This feature is optional &ndash; without these permissions the app remains fully usable.</p>
+
 <h2>3. Legal Basis (GDPR Art. 6)</h2>
 <ul>
 <li><strong>Contract performance (Art. 6(1)(b)):</strong> Registration, profile, chat, matching, premium services</li>
-<li><strong>Consent (Art. 6(1)(a)):</strong> Location, camera, microphone, push notifications, photo library</li>
+<li><strong>Consent (Art. 6(1)(a)):</strong> Location, camera, microphone, push notifications, photo library, Bluetooth/local network (Offline Nearby)</li>
 <li><strong>Legitimate interest (Art. 6(1)(f)):</strong> Security, abuse prevention, notification deduplication</li>
 </ul>
 
